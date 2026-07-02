@@ -1,19 +1,25 @@
 {
-    "Name": "Hierarchical Priors in Perceptual Uncertainty and Psychosis Proneness - A Random-Dot Kinematogram task with low- and high-level priors",
-    "BIDSVersion": "1.9.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "Jonathan Buchholz",
-        "Guido Hesselmann"
-    ],
-    "GeneratedBy": [
-        {
-            "Name": "MNE-BIDS",
-            "Version": "0.18.0",
-            "CodeURL": "https://mne.tools/mne-bids/"
-        }
-    ],
-    "Acknowledgements": "This dataset would not exist without the immense support from Rowan Dowed, Lily Hofstetter and Lena Guth. We would like to express our gratitude.",
-    "License": "CC0",
-    "DatasetDOI": "doi:10.18112/openneuro.ds008083.v1.0.0"
+  "Name": "Hierarchical Priors in Perceptual Uncertainty and Psychosis Proneness - A Random-Dot Kinematogram task with low- and high-level priors",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Jonathan Buchholz",
+    "Guido Hesselmann"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.18.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "Acknowledgements": "This dataset would not exist without the immense support from Rowan Dowed, Lily Hofstetter and Lena Guth. We would like to express our gratitude.",
+  "License": "CC0",
+  "DatasetDOI": "10.82901/nemar.on008083",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds008083.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
