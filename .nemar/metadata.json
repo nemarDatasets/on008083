@@ -1,29 +1,69 @@
 {
   "version": "2.0",
-  "dataset_id": "on008083",
-  "source": "openneuro",
-  "source_id": "ds008083",
+  "pipeline_stage": "validated",
   "title": "Hierarchical Priors in Perceptual Uncertainty and Psychosis Proneness - A Random-Dot Kinematogram task with low- and high-level priors",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Jonathan Buchholz": {},
     "Guido Hesselmann": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds008083.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on008083",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on008083",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
   ],
-  "acknowledgements": "This dataset would not exist without the immense support from Rowan Dowed, Lily Hofstetter and Lena Guth. We would like to express our gratitude."
+  "formats": [
+    ".csv",
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This EEG-BIDS dataset contains cue-locked recordings from 43 neurotypical adults performing a random-dot kinematogram task designed to dissociate low-level and high-level priors during perceptual decision-making. The study investigates how hierarchical priors bias behavior and modulate occipital oscillatory and aperiodic EEG activity using signal detection theory and generalized drift-diffusion modeling. Three within-subject conditions (baseline, low-level prior, high-level prior) were tested with individualized motion coherence thresholds.",
+  "methods_description": "Continuous EEG was recorded from 31 active Ag/AgCl electrodes (10/20 system) using an actiChamp Plus amplifier at 1000 Hz, referenced to FCz with ground at FPz. Stimuli were random-dot kinematograms (1200 white dots, 2.53 deg/s) presented on a 240 Hz LCD monitor. Individual motion sensitivity was estimated with QUEST staircases targeting 75% discrimination accuracy. The experiment used a within-subject design with three conditions: baseline (neutral 750 Hz tone), low-level prior (600/900 Hz tones predicting motion with 75% contingency), and high-level prior (cover story about tinted glasses). Each condition included learning and test blocks with 160 trials per condition in main analyses.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "perceptual decision-making"
+    },
+    {
+      "term": "random-dot kinematogram"
+    },
+    {
+      "term": "prior knowledge"
+    },
+    {
+      "term": "motion perception"
+    },
+    {
+      "term": "drift-diffusion model"
+    },
+    {
+      "term": "signal detection theory"
+    }
+  ],
+  "source_hash": "e2d549d534ccbb729b4407375b7d8550e7fd4ba89418453f011128519e7cb085"
 }
