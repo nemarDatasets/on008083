@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on008083-blue)](https://doi.org/10.82901/nemar.on008083)
+
 # README: Experiment Guide — Hierarchical Priors RDK EEG Task
 
 This file provides a experimental guide linking the analysis of *Buchholz & Hesselmann (in review) - Hierarchical Priors Shape Dynamic Evidence Accumulation and Aperiodic EEG Activity* with the here provided data and code. This can be used as an assisting tool for first running a semi-automated BIDS-EEG pipeline.
