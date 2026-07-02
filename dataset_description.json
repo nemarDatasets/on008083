@@ -1,0 +1,16 @@
+{
+    "Name": "Hierarchical Priors in Perceptual Uncertainty and Psychosis Proneness - A Random-Dot Kinematogram task with low- and high-level priors",
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Jonathan Buchholz",
+        "Guido Hesselmann"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "MNE-BIDS",
+            "Version": "0.18.0",
+            "CodeURL": "https://mne.tools/mne-bids/"
+        }
+    ]
+}
