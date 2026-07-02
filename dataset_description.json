@@ -12,5 +12,7 @@
             "Version": "0.18.0",
             "CodeURL": "https://mne.tools/mne-bids/"
         }
-    ]
+    ],
+    "Acknowledgements": "This dataset would not exist without the immense support from Rowan Dowed, Lily Hofstetter and Lena Guth. We would like to express our gratitude.",
+    "License": "CC0"
 }
