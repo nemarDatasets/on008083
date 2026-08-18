@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Hierarchical Priors in Perceptual Uncertainty and Psychosis Proneness - A Random-Dot Kinematogram task with low- and high-level priors",
-  "description": "This EEG-BIDS dataset contains cue-locked recordings from 43 neurotypical adults performing a random-dot kinematogram task designed to dissociate low-level and high-level priors during perceptual decision-making. The study investigates how hierarchical priors bias behavior and modulate occipital oscillatory and aperiodic EEG activity using signal detection theory and generalized drift-diffusion modeling. Three within-subject conditions (baseline, low-level prior, high-level prior) were tested with individualized motion coherence thresholds.",
-  "methods_description": "Continuous EEG was recorded from 31 active Ag/AgCl electrodes (10/20 system) using an actiChamp Plus amplifier at 1000 Hz, referenced to FCz with ground at FPz. Stimuli were random-dot kinematograms (1200 white dots, 2.53 deg/s) presented on a 240 Hz LCD monitor at 65 cm viewing distance. Motion coherence was individualized using two QUEST staircases targeting 75% discrimination accuracy. The experiment included learning blocks and test blocks across three conditions with auditory cues and jittered intertrial intervals.",
+  "description": "This dataset contains cue-locked EEG recordings and behavioral event annotations from 43 healthy adults performing a random-dot kinematogram (RDK) task designed to dissociate low-level and high-level hierarchical priors during perceptual decision-making. The study examines how such priors bias behavior via signal detection theory and generalized drift-diffusion modeling, and how they modulate occipital oscillatory and aperiodic EEG activity. Participants also completed questionnaires assessing psychosis proneness and psychological flexibility traits.",
+  "methods_description": "Continuous EEG was recorded from 31 active Ag/AgCl electrodes (10/20 system) using an actiChamp Plus amplifier at 1000 Hz, referenced online to FCz with ground at FPz. Participants performed a random-dot kinematogram task with auditory cues predicting motion direction under baseline, low-level prior, and high-level prior conditions, with individualized motion coherence set via QUEST staircases targeting 75% discrimination accuracy.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,16 +21,16 @@
       "term": "random-dot kinematogram"
     },
     {
-      "term": "hierarchical priors"
+      "term": "drift-diffusion model"
     },
     {
-      "term": "drift-diffusion modeling"
+      "term": "psychosis proneness"
     },
     {
-      "term": "motion perception"
+      "term": "signal detection theory"
     },
     {
-      "term": "oscillatory activity"
+      "term": "aperiodic activity"
     }
   ],
   "related_identifiers": [
