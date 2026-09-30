@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Hierarchical Priors in Perceptual Uncertainty and Psychosis Proneness - A Random-Dot Kinematogram task with low- and high-level priors",
-  "description": "This dataset contains cue-locked EEG recordings and behavioral event annotations from 43 healthy adults performing a random-dot kinematogram (RDK) task designed to dissociate low-level and high-level hierarchical priors during perceptual decision-making. The study examines how such priors bias behavior via signal detection theory and generalized drift-diffusion modeling, and how they modulate occipital oscillatory and aperiodic EEG activity. Participants also completed questionnaires assessing psychosis proneness and psychological flexibility traits.",
-  "methods_description": "Continuous EEG was recorded from 31 active Ag/AgCl electrodes (10/20 system) using an actiChamp Plus amplifier at 1000 Hz, referenced online to FCz with ground at FPz. Participants performed a random-dot kinematogram task with auditory cues predicting motion direction under baseline, low-level prior, and high-level prior conditions, with individualized motion coherence set via QUEST staircases targeting 75% discrimination accuracy.",
+  "description": "EEG-BIDS dataset of cue-locked EEG recordings and event annotations from 43 neurotypical adults performing a random-dot kinematogram motion discrimination task. The task dissociates low-level priors (implicitly learned tone-motion contingencies) from high-level priors (a cover story about tinted glasses) against a neutral baseline. The data support analyses of hierarchical priors with signal detection theory, drift-diffusion modeling, and occipital oscillatory and aperiodic EEG activity, alongside psychosis-proneness and psychological flexibility questionnaires.",
+  "methods_description": "Continuous EEG was recorded at 1000 Hz from 31 active Ag/AgCl electrodes (10/20 system, actiChamp Plus; ground FPz, online reference FCz). Participants completed a within-subject RDK left/right motion discrimination task with baseline, low-level prior and high-level prior conditions. Motion coherence was individualized with two QUEST staircases targeting 75% accuracy. Stimuli were presented with PsychoPy on a 240 Hz monitor at 65 cm viewing distance. Post-experimental questionnaires assessed manipulation checks, belief strength, psychosis proneness and psychological flexibility.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,19 +15,19 @@
       "term": "EEG"
     },
     {
-      "term": "perceptual decision-making"
-    },
-    {
       "term": "random-dot kinematogram"
     },
     {
-      "term": "drift-diffusion model"
+      "term": "perceptual decision-making"
+    },
+    {
+      "term": "hierarchical priors"
     },
     {
       "term": "psychosis proneness"
     },
     {
-      "term": "signal detection theory"
+      "term": "drift-diffusion model"
     },
     {
       "term": "aperiodic activity"
@@ -56,7 +56,7 @@
     "eeg"
   ],
   "sizes": [
-    "9.4 GB (45 files)"
+    "8.76 GB (45 files)"
   ],
   "formats": [
     ".csv",
